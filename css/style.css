@@ -1,0 +1,748 @@
+/*&display=swap*/
+/*&subset=cyrillic-ext*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900,&display=swap);
+
+
+
+/*обнуление*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+	overflow-x: hidden;
+	font-family:Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 15px;
+}
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	overflow: hidden;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+}
+.header{
+	background: #29C3BE;
+	padding: 15px;
+}
+
+.footer{
+	background-color: #5D62B5;
+	padding: 15px;
+}
+
+
+.main{
+	flex-grow:1;
+}
+
+[class*="__container"]{
+
+	margin: 0 auto;
+	max-width: 1020px;
+	padding: 28px 15px;
+	
+}
+
+.doggie {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.doggie__first{
+	display: flex;
+}
+
+.logo {
+	background: url(../img/block_dog_header/image/BG_Image.jpg) 0 0/100% 100% no-repeat;
+	flex: 1 1 100%;
+}
+.logo__container {
+	padding-bottom: 312px;
+}
+.logo__header {
+}
+.logo__head {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 32.9px;
+}
+.head-logo {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap:236px ;
+}
+.head-logo__cont-to-logotype {
+}
+
+.head-logo__info {
+	display: flex;
+	flex-direction: row;
+}
+
+.info-logo {
+	display: flex;
+	gap:30px;	
+}
+
+.info-logo__date-contacs {
+	display: flex;
+	gap: 13px;
+}
+
+.info-logo__pct{
+
+}
+.info-logo__date-phone{
+	display: flex;
+	gap: 13px;
+}
+
+.info-logo__image {
+	display: inline-flex;
+	align-self: flex-start;
+}
+.info-logo__block{
+	
+}
+
+.info-logo__name {
+	font-size: 12px;
+	line-height: 1.83;
+	font-weight: 700;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	color: #ffffff;
+}
+.info-logo__text {
+	font-size: 12px;
+	line-height: 1.83;
+	font-weight: 700;
+	letter-spacing: 0.15px;
+	color: #ffffff;
+}
+
+.logo-head__info-button {
+
+}
+.logo-head__info-form {
+
+}
+
+button{
+	padding:9px 33px;
+	background: #F2726F;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.83;
+	letter-spacing: 0.15px;
+	border-radius:8px ;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.logo__list{
+	margin-bottom: 126px;
+}
+.logo__menu {
+
+}
+.menu-logo {
+	display: flex;
+	background: #FFFFFF;
+	padding: 20px 40px;
+	border-radius: 10px;
+	justify-content: space-between;
+}
+.menu-logo__titles {
+	display: flex;
+	gap:45px;
+}
+.menu-logo__title {
+	font-weight: 700;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0.15px;
+	line-height: 1.57;
+}
+.menu-logo__image {
+	display: flex;
+	gap: 27px;
+}
+
+.logo__content {
+
+}
+.content-logo {
+	display: flex;
+}
+.content-logo__elements {
+	display: flex;
+	flex-direction: column;
+	flex: 0 1 583px;
+	flex-wrap: wrap;
+	gap: 48px;
+}
+.content-logo__title {
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 1;
+	color: #FFFFFF;
+	flex-wrap: wrap;
+}
+.content-logo__form {
+}
+.content-logo__button {
+}
+
+@media (max-width:991.98px;) {
+	[class*="__container"]{
+
+		margin: 0 auto;
+		max-width: 991px;
+		padding: 28px 15px;
+		
+	}
+	.logo {
+		background: url(../img/block_dog_header/image/BG_Image.jpg) 0 0/100% auto no-repeat;
+		flex: 1 1 100%;
+	}
+	
+	.head-logo {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap:23px ;
+	}
+	.logo__menu {
+		margin-bottom: 30px;
+	}
+	.content-logo__elements {
+		display: flex;
+		flex-direction: column;
+		flex: 0 1 583px;
+		flex-wrap: wrap;
+		gap: 18px;
+	}
+	.content-logo__title {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 1;
+		color: #FFFFFF;
+		flex-wrap: wrap;
+	}
+	
+}
+
+
+@media (max-width:797.98px){
+	
+
+	[class*="__container"]{
+
+		margin: 0 auto;
+		max-width: 798px;
+		padding: 28px 15px ;
+		
+	}
+	
+	.logo {
+		background: url(../img/block_dog_header/image/BG_Image.jpg) 0 0/cover 0 no-repeat;
+		flex: 1 1 100%;
+	}
+
+	.logo__container{
+		padding-bottom: 150px;
+	}
+
+	.logo__header{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.head-logo {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap:23px ;
+	}
+	.logo__list{
+		margin-bottom: 80px;
+	}
+	.menu-logo {
+		display: inline-flex;
+		flex-direction: row;
+		background: #FFFFFF;
+		padding: 10px 10px;
+		border-radius: 10px;
+		justify-content: space-between;
+		gap: 20px;
+	}
+		.menu-logo__titles {
+			display: flex;
+			flex-direction: row;
+			gap:35px;
+		}
+		.menu-logo__title {
+			
+			font-weight: 700;
+			font-size: 14px;
+			color: #000000;
+			letter-spacing: 0.15px;
+			line-height: 1.57;
+		}
+		.content-logo__elements {
+			display: flex;
+			flex-direction: column;
+			flex: 0 1 100%;
+			flex-wrap: wrap;
+			gap: 48px;
+		}
+		.content-logo__title {
+			font-weight: 700;
+			font-size: 28px;
+			line-height: 1;
+			color: #FFFFFF;
+			flex-wrap: wrap;
+		}
+	}
+
+
+@media (max-width:600.98px){
+	[class*="__container"]{
+
+		margin: 0 auto;
+		max-width: 601px;
+		padding: 28px 15px;
+		
+	}
+	.logo {
+		background: url(../img/block_dog_header/image/BG_Image.jpg) 0 0/cover 0 no-repeat;
+		flex: 1 1 100%;
+	}
+
+	.logo__header{
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+	.logo__head{
+		 gap: 20px;
+	}
+
+	.logo__box	{
+		display: flex;
+		flex-direction: row;
+	}
+	.logo__list {
+		flex: 0 1 50%;
+	}
+	.menu-logo {
+	
+		display: inline-flex;
+		flex-direction: column;
+		background: #FFFFFF;
+		padding: 10px 10px;
+		border-radius: 10px;
+		justify-content: space-between;
+	}
+
+	.content-logo {
+		flex: 0 1 50%;
+	}
+		.menu-logo__titles {
+			display: flex;
+			flex-direction: column;
+			gap:5px;
+		}
+		.menu-logo__title {
+			
+			font-weight: 700;
+			font-size: 14px;
+			color: #000000;
+			letter-spacing: 0.15px;
+			line-height: 1.57;
+		}
+		.content-logo__elements {
+			display: flex;
+			flex-direction: column;
+			flex: 0 1 13px;
+			flex-wrap: wrap;
+			gap: 50px;
+		}
+		.content-logo__title {
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 1;
+			color: #FFFFFF;
+			flex-wrap: wrap;
+		}
+	}
+
+
+
+
+	.nemo {
+
+		display: flex;
+		flex-direction: column;
+	  
+	}
+	.nemo__container {
+	 background: url(../img/block_dogs_nose/decor/Blob.svg)-10px 220px no-repeat ,  #5D62B5 ;
+	 padding: 72px 60px 0px 60px;
+	 display: flex;
+	 flex-direction: column;
+	 margin-top: -78px;
+	border-radius: 40px;
+	position: relative;
+	}
+
+	.nemo__container::before{
+		content: "";
+		position: absolute;
+		top: -120px;
+		left: 80%;
+		display: inline-block;
+		height: 500px;
+		width: 200px;
+		background: url(../img/block_dogs_nose/decor/Stylize.svg) 0 0 no-repeat;
+	}
+	.nemo__content {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin-bottom: 50px;
+	}
+	.nemo__header {
+		display: flex;
+		flex-direction: column;
+
+	}
+	.nemo__lable {
+		font-weight: 700;
+		font-size: 12px;
+		letter-spacing: 2.5px;
+		line-height: 2;
+		color: #F5F5F5;
+		background:url(../img/block_dogs_nose/decor/mark.svg)0px -2px no-repeat ;
+		padding: 0px 0px 0px 33px;
+		text-transform: uppercase;
+		margin-bottom: 33px;
+	}
+	.nemo__info {
+	}
+	.info-nemo {
+		display: flex;
+		flex-direction: column;
+	}
+	.info-nemo__title {
+		max-width: 583px;
+		font-weight: 900;
+		font-size: 36px;
+		line-height: 1.166;
+		color: #FFFFFF;
+		margin-bottom: 36px;
+	}
+	.info-nemo__text {
+		max-width:808px;
+		font-weight: 400;
+		font-size: 16px;
+		letter-spacing: 2.5px;
+		line-height: 1.5;
+		color: #F5F5F5;
+		letter-spacing: 0.15px;
+	}
+	.nemo__content-image {
+		margin: 0 auto;
+	}
+	.nemo__image {
+
+		margin-bottom: -120px;
+		max-width: 100%;
+	}
+
+
+	@media (max-width:801.98px){
+
+		.nemo__container {
+			max-width: 750px;
+			background: url(../img/block_dogs_nose/decor/Blob.svg)-10px 220px no-repeat ,  #5D62B5 ;
+			padding: 72px 60px 0px 60px;
+			display: flex;
+			flex-direction: column;
+			margin-top: -40px;
+			border-radius: 40px;
+			position: relative;
+			}
+		.nemo__container::before{
+			content: "";
+			position: absolute;
+			top: -100px;
+			left: 70%;
+			display: inline-block;
+			height: 500px;
+			width: 200px;
+			background: url(../img/block_dogs_nose/decor/Stylize.svg) 0 0 / 200px 200px no-repeat;
+		}
+		.nemo__image {
+
+			margin-bottom: -100px;
+			max-width: 100%;
+		}
+	}
+
+	@media (max-width:550.98px){
+		.nemo__container {
+			max-width: 500px;
+		}
+		.info-nemo{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		.info-nemo__title{
+			flex: 0 1 45%;
+			font-weight: 700;
+			font-size: 24px;
+		}
+		.info-nemo__text{
+			flex: 0 1 45%;
+			font-size: 14px;
+		}
+		.nemo__container::before{
+			content: "";
+			position: absolute;
+			top: -50px;
+			left: 70%;
+			display: inline-block;
+			height: 500px;
+			width: 200px;
+			background: url(../img/block_dogs_nose/decor/Stylize.svg) 0 0 / 150px 150px no-repeat;
+		}
+		.nemo__content{
+			margin-bottom: 25px;
+		}
+		.nemo__image {
+			margin-bottom: -50px;
+			max-width: 100%;
+		}
+	}
+
+	@media (max-width:424.98px){
+
+
+		.info-nemo__title{
+			flex: 0 1 45%;
+			font-weight: 600;
+			font-size: 24px;
+			margin-bottom: 18px;
+		}
+		.info-nemo__text{
+			flex: 0 1 45%;
+			font-size: 14px;
+		}
+		.info-nemo{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		.nemo__content{
+			margin-bottom: 25px;
+
+		}
+		.nemo__container::before{
+			content: "";
+			position: absolute;
+			top: -50px;
+			left: 65%;
+			display: inline-block;
+			height: 500px;
+			width: 200px;
+			background: url(../img/block_dogs_nose/decor/Stylize.svg) 0 0 / 120px 120px no-repeat;
+		}
+		.nemo__image {
+			margin-bottom: -30px;
+			max-width: 100%;
+		}
+	}
+
+
+	.doggie-background {
+		background-color: #FFFFFF;
+		max-width: 100%;
+		min-height: 200px;
+	}
+	@media (max-width:424.98px){
+		.doggie-background {
+			background-color: #FFFFFF;
+			max-width: 100%;
+			min-height: 100px;
+		}
+	}
+
+
+	.ball__margin{
+
+	}
+	.ball {
+		background-color: #29C3BE;
+	}
+	.ball__box {
+		display: flex;
+		flex-wrap: wrap;
+		background: url(../img/block_dog&decor/decor/Blob.png)-20px -70px no-repeat , url(../img/block_dog&decor/decor/Stylize.svg) -7px 35px no-repeat;
+	}
+	.ball__dog {
+		flex: 0 1 50%;
+
+	}
+	.ball__image{
+		max-width: 100%;
+
+	}
+	.ball__content {
+		flex: 0 1 50% ;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.ball__items{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.content-ball {
+		display: flex;
+	}
+	.content-ball__image {
+	}
+	.content-ball__tennis {
+		max-width: 100%;
+	}
+
+	.content-ball__text {
+		max-width: 411px;
+		font-size: 36px;
+		line-height: 1.166;
+		font-weight: 900;
+		color: #FFFFFF;
+		margin-bottom: 45px;
+	}
+	
+	.ball__form {
+
+	}
+
+	@media (max-width:801.98px){
+		.ball__box {
+			display: flex;
+			flex-wrap: wrap;
+			background: url(../img/block_dog&decor/decor/Blob.png)-20px -100px / 200px 200px  no-repeat , url(../img/block_dog&decor/decor/Stylize.svg) -7px 35px no-repeat;
+		} 
+		.content-ball__text {
+			max-width: 411px;
+			font-size: 24px;
+			line-height: 1.166;
+			font-weight: 700;
+			color: #FFFFFF;
+			margin-bottom: 45px;
+		}
+	}
+
+	@media (max-width:550.98px){
+
+		.content-ball__text {
+			max-width: 211px;
+			font-size: 18px;
+			line-height: 1.166;
+			font-weight: 700;
+			color: #FFFFFF;
+			margin-bottom: 15px;
+		}
+		.ball__button{
+			padding:9px 13px;
+			background: #F2726F;
+			font-size: 12px;
+			font-weight: 700;
+			line-height: 1.83;
+			letter-spacing: 0.15px;
+			border-radius:8px ;
+			color: #ffffff;
+			text-transform: uppercase;
+		}
+	}
+
+	@media (max-width:424.98px){
+		.ball__box {
+			display: flex;
+			flex-wrap: wrap;
+			background: url(../img/block_dog&decor/decor/Blob.png)-20px -20px / 100px 100px  no-repeat , url(../img/block_dog&decor/decor/Stylize.svg) -7px 25px/ 100px 100px no-repeat;
+		} 
+		.content-ball__text {
+			max-width: 211px;
+			font-size: 12px;
+			line-height: 1.166;
+			font-weight: 700;
+			color: #FFFFFF;
+			margin-bottom: 15px;
+		}
+		.ball__button{
+			max-width: 150px;
+			padding:9px 13px;
+			background: #F2726F;
+			font-size: 8px;
+			font-weight: 700;
+			line-height: 1.83;
+			letter-spacing: 0.15px;
+			border-radius:8px ;
+			color: #ffffff;
+			text-transform: uppercase;
+		}
+	}
